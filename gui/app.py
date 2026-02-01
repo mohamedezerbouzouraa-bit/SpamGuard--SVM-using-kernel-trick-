@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
-
+#partie inteface
 def launch_gui(model, vectorizer):
     def predict_spam():
         message = text_box.get("1.0", tk.END).strip()
