@@ -26,7 +26,6 @@ def launch_gui(model, vectorizer):
     title.place(relx=0.5, y=30, anchor="center")
     text_box = tk.Text(root, height=5, width=45, font=("Helvetica", 14))
     text_box.place(relx=0.5, rely=0.5, anchor="center")
-
     btn = tk.Button(root, text="Predict",
                     font=("Helvetica", 16, "bold"),
                     bg="#1a73e8", fg="white",
