@@ -1,5 +1,5 @@
 import pandas as pd
-
+#the data with which we will train the model
 def load_data():
     data = {
         'Message': [
