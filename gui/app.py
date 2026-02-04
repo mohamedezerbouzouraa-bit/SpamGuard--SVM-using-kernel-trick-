@@ -31,5 +31,4 @@ def launch_gui(model, vectorizer):
                     bg="#1a73e8", fg="white",
                     command=predict_spam)
     btn.place(relx=0.5, rely=0.65, anchor="center")
-
     root.mainloop()
